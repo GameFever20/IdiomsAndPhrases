@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightWhiteBg"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.phrases.idiom.admin.craftystudio.idiomsandphrases.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/idiomsList_main_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@color/colorLightWhiteBg"
+            android:divider="@color/colorTransparent"
+            android:dividerHeight="0dp">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/no_bookmark_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="@color/colorWhiteBg"
+        app:itemTextColor="@color/colorWhiteBg"
+        app:menu="@menu/navigation" />
+
+</LinearLayout>

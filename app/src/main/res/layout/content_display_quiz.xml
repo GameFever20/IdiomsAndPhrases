@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightWhiteBg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.phrases.idiom.admin.craftystudio.idiomsandphrases.DisplayQuizActivity"
+    tools:showIn="@layout/activity_display_quiz">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/dailyQuizActivity_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorLightWhiteBg"
+        android:visibility="visible">
+
+    </android.support.v4.view.ViewPager>
+
+</android.support.constraint.ConstraintLayout>

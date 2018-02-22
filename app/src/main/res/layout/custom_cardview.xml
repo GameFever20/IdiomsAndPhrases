@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/custom_background_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp">
+
+
+        <LinearLayout
+            android:id="@+id/custom_background_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--Idiom Name -->
+                <TextView
+                    android:id="@+id/idiom_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Hello mona"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorGreyish"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <!--bookmark idiom -->
+                <ImageView
+                    android:id="@+id/idiom_bookmark_imageview"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/icon_bookmark_grey"
+                    android:visibility="visible" />
+
+                <!--Share Question Imageview -->
+                <ImageView
+                    android:id="@+id/idiom_share_imageview"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/icon_share_grey" />
+
+
+            </LinearLayout>
+
+            <!--idiom meaning -->
+            <TextView
+                android:id="@+id/idiom_meaning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="2dp"
+                android:text="Hello mona"
+                android:textAlignment="viewStart"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--idiom example-->
+                <TextView
+                    android:id="@+id/idiom_example"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="Hello mona"
+                    android:textAlignment="viewStart"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+
+                <!--important idiom -->
+                <ImageView
+                    android:id="@+id/idiom_important_imageview"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/icon_star_grey"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

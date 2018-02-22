@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_idiom"
+        android:icon="@drawable/icon_bulb"
+        android:title="Idioms" />
+
+    <item
+        android:id="@+id/navigation_bookmark"
+        android:icon="@drawable/icon_bookmark"
+        android:title="Bookmark" />
+
+    <item
+        android:id="@+id/navigation_quiz"
+        android:icon="@drawable/g6"
+        android:title="Quiz" />
+
+
+</menu>

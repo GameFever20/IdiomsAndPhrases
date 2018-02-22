@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_english_grammar"
+        android:title="English Grammar app" />
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/g1"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/icon_star"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_suggest"
+                android:icon="@drawable/icon_suggestion"
+                android:title="Give Suggestion" />
+        </menu>
+    </item>
+
+    <item android:title="More from Crafty Studio">
+        <menu>
+            <item
+                android:id="@+id/nav_aptitude"
+                android:title="Aptitude Master app" />
+
+            <item
+                android:id="@+id/nav_logical_reasoning"
+                android:title="Logical Reasoning app" />
+
+            <item
+                android:id="@+id/nav_basic_Computer"
+                android:title="🖥 Basic Computer App" />
+            <item
+                android:id="@+id/nav_short_key"
+                android:title="⌨️ Computer Short Keys" />
+
+            <item
+                android:id="@+id/nav_personality_development"
+                android:title="Personality Development app" />
+
+
+            <item
+                android:id="@+id/nav_daily_editorial"
+                android:title="🗞 Daily Editorial" />
+
+            <item
+                android:id="@+id/nav_pib"
+                android:title="📰 PIB and AIR News" />
+
+
+        </menu>
+    </item>
+
+</menu>

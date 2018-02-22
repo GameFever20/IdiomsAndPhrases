@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "737417961537",
+    "firebase_url": "https://idiomdandphrases.firebaseio.com",
+    "project_id": "idiomdandphrases",
+    "storage_bucket": "idiomdandphrases.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737417961537:android:c24040dc5c0aff65",
+        "android_client_info": {
+          "package_name": "app.phrases.idiom.admin.craftystudio.idiomsandphrases"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737417961537-6nh034lm7rivu801ulbo0p51nval8mh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV3vRDmgAx_U8zdS3Cn2Uy4rME_zIrYuc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
